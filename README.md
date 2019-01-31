@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
 ## Muzix-App : Complete Frontend and Backend
-This is a Muzix application which is implemented completely with both **Angular** in frontend and **Java Spring Boot REST Api with Mongo DB for database**
+This is a Muzix application which is completely implemented with both **Angular** in frontend and **Java Spring Boot REST Api with Mongo DB for database** in the backend
 
 
 ## Versions:
@@ -18,7 +18,7 @@ This is a Muzix application which is implemented completely with both **Angular*
    
 ## Editor Tools:  
 
-   Visual Studio Code Editor( For Angular )
+   Visual Studio Code Editor( For Angular ) |
    IntelliJ Idea  (for Java Spring boot with Mongo db) 
    
 ## Development server
