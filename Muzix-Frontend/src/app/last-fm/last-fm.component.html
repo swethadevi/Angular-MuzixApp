@@ -1,0 +1,28 @@
+<div class="container" style="text-align:center">
+  <div class="row" style="text-align:center">
+    <div class="col-md-12" style="font-size:22px">Search Results </div>
+    <br><br><br><br>
+  </div>
+  <div class="row" style="text-align:center" >
+    <div *ngFor="let blog of tracks.results.trackmatches.track" class="col-md-4">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">{{blog.name| uppercase}}</div>
+        <div class="panel-body">  
+
+          <p>{{blog.artist}}</p>
+        </div>
+        <img class="card-img-top" src='{{blog.image[3]["#text"]}}' alt="Card image cap">
+        <div class="panel-footer">Listners: {{blog.listeners}}<br /> 
+          <br /><br /><a [routerLink]="['/savetrack',blog.mbid]" class="btn btn-primary">Save to playlist</a>
+
+        </div>
+
+      </div>
+
+      <br />
+    </div>
+
+  </div>
+
+</div>

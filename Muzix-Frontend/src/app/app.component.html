@@ -1,0 +1,25 @@
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+    <ul class="nav navbar-nav">
+        <li  ><a class="navbar-item-right ">
+            <img src="assets/img/musicc.jpeg" width="150" height="130" alt="muzix logo">
+        </a></li>
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">MuzixApp</a>
+        </div>
+            <li><a routerLink = "/home">Home</a></li>
+            <li ><a [routerLink]="['/myplaylist']">Playlist</a></li>
+            <li><a routerLink = "/Wishlist">Wishlist</a></li> 
+            <li><app-search-track></app-search-track></li> 
+    </ul>
+  </div>
+</nav>
+<!-- <app-search-track></app-search-track> -->
+
+<router-outlet></router-outlet>
+
+<!-- footer selector-->
+<app-footer></app-footer>
+
